@@ -1,14 +1,12 @@
 import PersonCard from "@components/About/PersonCard";
+import PageHeader from "@components/PageHeader";
 import React from "react";
 
 const About = () => {
   return (
     <div>
       <div className="my-8 pl-32 text-white">
-        <div className="letter font-raleway text-7xl font-black tracking-[-.1em]">
-          About Us
-          <div className="h-2 w-full bg-gradient-to-r from-[white] via-[#D7B605] to-[#D7B605]"></div>
-        </div>
+        <PageHeader title="About Us" />
         <p className="mt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec tristique augue. Sed
           quis lorem dolor. Aliquam cursus eleifend erat, at consequat justo sodales ut. Duis
