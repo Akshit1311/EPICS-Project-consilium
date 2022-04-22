@@ -8,6 +8,7 @@ enum PageOption {
   HOME = "/",
   ABOUT = "/about",
   MENTORS = "/mentors",
+  LESSONS = "/lessons",
 }
 
 type PageOptions = {
@@ -29,6 +30,9 @@ const Navbar: React.FC = () => {
     },
     "/mentors": {
       title: "Mentors",
+    },
+    "/lessons": {
+      title: "Lessons",
     },
   };
 
@@ -57,7 +61,7 @@ const Navbar: React.FC = () => {
       </div>
       <div className="flex items-center gap-4">
         <div className="h-8 w-8 rounded-full bg-slate-500"></div>
-        <div className="flex-1 text-left text-white">Full Name</div>
+        <div className="flex-1 text-left text-white">Sonu</div>
         <div className="cursor-pointer">{icons["down-caret"]}</div>
       </div>
     </div>
